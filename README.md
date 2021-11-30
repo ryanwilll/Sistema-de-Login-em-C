@@ -11,6 +11,6 @@ Após logar, vocês podem redirecionar para outra function.
 
 <div style="display: inline_block"><br>
   <p align="center">
-  <img align="center" alt="Sistema-Login" height="30" width="40" src="https://prnt.sc/2159yms">
+  <img align="center" alt="Sistema-Login" height="30" width="40" src="https://cdn.discordapp.com/attachments/915351126361137184/915351132879077406/unknown.png">
   </p>  
 </div>
