@@ -1,5 +1,5 @@
-#include <stdio.h> //Padr„o
-#include <stdlib.h> //Padr„o
+#include <stdio.h> //Padr√£o
+#include <stdlib.h> //Padr√£o
 #include <string.h>
 #include <conio.h>
 #include <ctype.h>
@@ -8,19 +8,19 @@
 typedef struct{
     char login[30]; // vetor login da struct pessoa
     char senha[30]; // vetor senha da struct pessoa
-} pessoa; pessoa p[1];  // diminuindo o nome da struct para "p" e o "[1]" È o m·ximo de pessoas com logins e senhas
+} pessoa; pessoa p[1];  // diminuindo o nome da struct para "p" e o "[1]" √© o m√°ximo de pessoas com logins e senhas
 
 
 int main()
 {
-
+    // Esse sistema de login foi utilizado para criar um sistema hospital, por isso o t√≠tulo.
     printf("\t\t\t\t************************************************\n");
     printf("\t\t\t\t*            SISTEMA HOSPITALAR DE             *\n");
     printf("\t\t\t\t*          GERENCIAMENTO DE PACIENTES          *\n");
     printf("\t\t\t\t************************************************\n");
     int n1,n2;
-    char login[30]; // respons·vel por armazenar o login inserida pelo usu·rio
-    char senha[30]; // respons·vel por armazenar a senha inserida pelo usu·rio
+    char login[30]; // respons√°vel por armazenar o login inserida pelo usu√°rio
+    char senha[30]; // respons√°vel por armazenar a senha inserida pelo usu√°rio
 
     strcpy(p[0].login, "admin"); // Definindo o login "admin" na struct
     strcpy(p[0].senha, "admin"); // Definindo a senha "admin"  na struct
