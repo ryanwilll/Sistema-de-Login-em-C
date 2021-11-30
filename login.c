@@ -21,7 +21,10 @@ int main()
     int n1,n2;
     char login[30]; // responsável por armazenar o login inserida pelo usuário
     char senha[30]; // responsável por armazenar a senha inserida pelo usuário
-
+    
+    /*
+        O nome que está entre aspas duplas é o login e a senha, podendo ser alterado.
+    */
     strcpy(p[0].login, "admin"); // Definindo o login "admin" na struct
     strcpy(p[0].senha, "admin"); // Definindo a senha "admin"  na struct
 
